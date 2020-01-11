@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/index/index",
+    "pages/product/detail",
+    "pages/user/user",
+    "pages/category/index",
+    "pages/listdetail/listdetail",
+    "pages/cart/cart",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3da700",
+    "navigationBarTitleText": "中粮我买商城",
+    "navigationBarTextStyle": "white"
+  },
+  
+  "tabBar": {
+    "color":"#858585",
+    "selectedColor":"#3da700", 
+    "borderStyle":"white",
+    "backgroundColor":"#fffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icons/btn-tabs_01.png",
+        "selectedIconPath": "images/icons/btn-tabs_017.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "images/icons/btn-tabs_03.png",
+        "selectedIconPath": "images/icons/btn-tabs_018.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/icons/btn-tabs_05.png",
+        "selectedIconPath": "images/icons/btn-tabs_019.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/icons/btn-tabs_06.png",
+        "selectedIconPath": "images/icons/btn-tabs_020.png",
+        "text": "我的"
+      }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
